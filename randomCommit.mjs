@@ -1,4 +1,8 @@
-//Run this code using "node randomCommit.mjs" on terminal to commit the no of times according to the script.
+// Run this code using "node randomCommit.mjs" on terminal to commit the no of times according to the script.
+// Undo Last Commit on Gtithub (Keep Changes):
+// code : git reset --soft HEAD~1 
+// code: git push origin main --force
+
 
 import jsonfile from 'jsonfile'; // Module to handle JSON file operations
 import moment from 'moment'; // Module to handle date and time operations
